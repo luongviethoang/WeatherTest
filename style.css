@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana;
+    background-color: lightgoldenrodyellow;
+}
+h3.greeting {
+    text-align: center;
+    animation: greetingStyle 700ms infinite;
+}
+div.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 255, 0.15);
+    width: 500px;
+    height: 700px;
+    border: 1px solid blue;
+    text-align: center;
+    justify-content: center;
+}
+div#data-main{
+    display: none;
+}
+@keyframes greetingStyle {
+    0%{
+        color: green;
+    }
+    25% {
+        color: orange;
+    }
+    50%{
+        color: #fff;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: green;
+    }
+}
